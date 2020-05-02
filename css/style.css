@@ -1,0 +1,81 @@
+body, html {
+    font-family: "Montserrat", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.text-center {
+    padding-top: 20px;
+}
+
+#newsletter, #contact, #mentions {
+    padding: 50px 0;
+}
+
+#listefilms, #rangee2, #rangee3, #rangee4 {
+    padding: 30px 0;
+}
+
+#informations {
+    padding: 70px 0;
+}
+
+.horaire2 {
+    padding: 12px;
+}
+
+.horaire3, .horaire4, .horaire7 {
+    padding: 20px;
+}
+
+.horaire5, .horaire6 {
+    padding: 23px;
+}
+
+.form-check-inline {
+    padding: 20px 0;
+}
+
+#fb {
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms; 
+    padding: 10px;
+}
+
+#fb:hover {
+    transform: scale(1.8); 
+}
+
+#insta {
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+    padding: 10px; 
+}
+
+#insta:hover {
+    transform: scale(1.8); 
+}
+
+#twitter {
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+    padding: 10px; 
+}
+
+#twitter:hover {
+    transform: scale(1.8); 
+}
+
+#copyright {
+    padding: 10px;
+}
+

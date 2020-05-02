@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Festival des Films de Plein Air</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+<!-- Favicons -->
+    <link rel="apple-touch-icon" href="Images/ticket-petit.png" sizes="180x180">
+    <link rel="icon" href="Images/ticket-petit.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="Images/ticket-petit.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/4.4/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+    <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon.ico">
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+<!--Navbar Scrollspy-->
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="index.html">
+          <img src="Images/ticket-petit.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#listefilms">Liste des films</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reservation">Réservation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#informations">Informations</a>
+            </li>   
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>   
+            <li class="nav-item">
+              <a class="nav-link" href="mentions.html">Mentions légales</a>
+            </li>       
+          </ul>
+        </div>  
+      </nav>
+
+<!--Header-->
+      <header class="container" id="header">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="Images/snack2.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="Images/pleinair.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="Images/cinema2.jpg" alt="Third slide">
+            </div>
+          </div>
+        </div>
+          <div class="container p-3 my-3 bg-white text-dark">
+            <h1 class="text-center">Festival des Films de Plein Air</h1>
+            <p class="text-center">Venez découvrir ou re-découvrir des films d'auteur dans ce festival de films en plein air
+              situé au coeur de Paris au parc Monceau. Toutes les séances sont gratuites ! 
+            </p>
+        </div>
+      </header>
+
+
+<!--Liste des films-->
+    <div class="container" id="listefilms">
+      <h3 class="text-center">Mercredi 5 août</h3>
+      <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 shadow p-3">
+          <div class="card-body">
+            <img src="Images/le-labyrinth-de-pan.jpg" class="mx-auto d-block" alt="Le Labyrinth de Pan" style="width:90%;">
+            <h2 class="card-title pricing-card-title"><small class="text-dark">Le Labyrinthe de Pan</small></h2>
+            <p>de 18 à 20h</p>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark" data-toggle="modal" data-target="#labyrinthe">Voir le résumé</button>
+          </div>
+        </div>
+<!--Modal résumé-->
+      <div class="modal" id="labyrinthe">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Le Labyrinthe de Pan</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <img src="Images/le-labyrinth-de-pan.jpg" class="mx-auto d-block" alt="Le Labyrinth de Pan" style="width:50%;">
+              <p class="text-center">Espagne, 1944. Fin de la guerre. Carmen s'installe avec sa fille Ofélia chez son 
+              nouvel époux. La jeune fille découvre un mystérieux labyrinthe. Ofélia devra accomplir 
+              trois dangereuses épreuves.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="card mb-4 shadow p-3">
+          <div class="card-body">
+            <img src="Images/parasite.jpg" class="mx-auto d-block" alt="Parasite" style="width:95%;">
+            <h2 class="card-title pricing-card-title"><small class="text-dark">Parasite</small></h2>
+            <p class="horaire2">de 20h30 à 22h</p>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark" data-toggle="modal" data-target="#parasite">Voir le résumé</button>
+          </div>
+        </div>
+        <div class="modal" id="parasite">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Parasite</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <img src="Images/parasite.jpg" class="mx-auto d-block" alt="Parasite" style="width:50%;">
+                <p class="text-center">Toute la famille de Ki-taek est au chômage, et s’intéresse fortement au train de vie 
+                  de la richissime famille Park. C’est le début d’un engrenage incontrôlable, dont personne 
+                  ne sortira véritablement indemne...</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow p-3">
+          <div class="card-body">
+            <img src="Images/big-fish.jpg" class="mx-auto d-block" alt="Big Fish" style="width:90%;">
+            <h2 class="card-title pricing-card-title"><small class="text-dark">Big Fish</small></h2>
+            <p class="horaire3">de 22h15 à minuit</p>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark" data-toggle="modal" data-target="#bigfish">Voir le résumé</button>
+          </div>
+        </div>
+        <div class="modal" id="bigfish">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Big Fish</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <img src="Images/big-fish.jpg" class="mx-auto d-block" alt="Big Fish" style="width:50%;">
+                <p class="text-center">L'histoire à la fois drôle et poignante d'Edward Bloom, un père débordant d'imagination, 
+                  et de son fils William. Ce dernier retourne au domicile familial pour être au chevet de son père. Il souhaite 
+                  mieux le connaître et découvrir ses secrets.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!--Deuxième rangée des films-->
+    <div class="container" id="rangee2">
+      <h3 class="text-center">Jeudi 6 août</h3>
+      <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 shadow p-3">
+          <div class="card-body">
+            <img src="Images/domicile-conjugal.jpg" class="mx-auto d-block" alt="Domicile Conjugal" style="width:90%;">
+            <h2 class="card-title pricing-card-title"><small class="text-dark">Domicile Conjugal</small></h2>
+            <p class="horaire7">de 18h à 20h</p>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark" data-toggle="modal" data-target="#domicile">Voir le résumé</button>
+          </div>
+        </div>
+        <div class="modal" id="domicile">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Domicile Conjugal</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <img src="Images/domicile-conjugal.jpg" class="mx-auto d-block" alt="Domicile Conjugal" style="width:50%;">
+                <p class="text-center">Antoine Doinel a épousé Christine Dabon. Antoine rencontre Kyoko, une Japonaise avec 
+                  qui il trompe Christine alors que celle-ci vient de mettre au monde leur fils Alphonse.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow p-3">
+          <div class="card-body">
+            <img src="Images/lamour-en-fuite.jpg" class="mx-auto d-block" alt="L'amour en fuite" style="width:90%;">
+            <h2 class="card-title pricing-card-title"><small class="text-dark">L'amour en fuite</small></h2>
+            <p class="horaire4">de 20h30 à 22h</p>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark" data-toggle="modal" data-target="#lamour">Voir le résumé</button>
+          </div>
+        </div>
+        <div class="modal" id="lamour">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">L'amour en fuite</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <img src="Images/lamour-en-fuite.jpg" class="mx-auto d-block" alt="L'amour en fuite" style="width:50%;">
+                <p class="text-center">Huit ans après leur mariage, Antoine et Christine se quittent en bons termes et toujours 
+                  liés par leur fils Alphonse. Devenu romancier, Antoine profite de son célibat pour retrouver 
+                  son premier amour.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow p-3">
+          <div class="card-body">
+            <img src="Images/juste-la-fin-du-monde.jpg" class="mx-auto d-block" alt="Juste la fin du monde" style="width:90%;">
+            <h2 class="card-title pricing-card-title"><small class="text-dark">Juste la fin du monde</small></h2>
+            <p>de 22h15 à minuit</p>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark" data-toggle="modal" data-target="#monde">Voir le résumé</button>
+          </div>
+        </div>
+        <div class="modal" id="monde">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Juste la fin du monde</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <img src="Images/juste-la-fin-du-monde.jpg" class="mx-auto d-block" alt="Juste la fin du monde" style="width:50%;">
+                <p class="text-center">Après douze ans d’absence, un écrivain retourne dans son village natal pour annoncer à 
+                  sa famille sa mort prochaine. Ce sont les retrouvailles avec le cercle familial où l’on 
+                  se dit l’amour que l’on se porte.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+<!--Troisième rangée des films-->
+    <div class="container" id="rangee3">
+      <h3 class="text-center">Vendredi 7 août</h3>
+      <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 shadow p-3">
+          <div class="card-body">
+            <img src="Images/edward-aux-mains-dargent.jpg" class="mx-auto d-block" alt="Edward aux mains d'argent" style="width:90%;">
+            <h2 class="card-title pricing-card-title"><small class="text-dark">Edward aux mains d'argent</small></h2>
+            <p>de 18h à 20h</p>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark" data-toggle="modal" data-target="#edward">Voir le résumé</button>
+          </div>
+        </div>
+        <div class="modal" id="edward">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Edward aux mains d'argent</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <img src="Images/edward-aux-mains-dargent.jpg" class="mx-auto d-block" alt="Edward aux mains d'argent" style="width:50%;">
+                <p class="text-center">Edward Scissorhands n'est pas un garçon ordinaire. Création d'un inventeur, il 
+                  a reçu un cœur pour aimer, un cerveau pour comprendre. Edward se retrouve avec des 
+                  lames de métal en guise de doigts.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow p-3">
+          <div class="card-body">
+            <img src="Images/into-the-wild.jpg" class="mx-auto d-block" alt="Into The wild" style="width:90%;">
+            <h2 class="card-title pricing-card-title"><small class="text-dark">Into The Wild</small></h2>
+            <p class="horaire5">de 20h30 à 22h</p>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark" data-toggle="modal" data-target="#wild">Voir le résumé</button>
+          </div>
+        </div>
+        <div class="modal" id="wild">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Into The Wild</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <img src="Images/into-the-wild.jpg" class="mx-auto d-block" alt="Into The Wild" style="width:50%;">
+                <p class="text-center">Tout juste diplômé de l'université, Christopher McCandless, 22 ans, est promis à 
+                  un brillant avenir. Pourtant, tournant le dos à l'existence confortable et sans 
+                  surprise qui l'attend, le jeune homme décide de prendre la route en laissant tout 
+                  derrière lui.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow p-3">
+          <div class="card-body">
+            <img src="Images/Mulholland_Drive2.jpg" class="mx-auto d-block" alt="Mulholland Drive" style="width:90%;">
+            <h2 class="card-title pricing-card-title"><small class="text-dark">Mulholland Drive</small></h2>
+            <p class="horaire6">de 22h15 à minuit</p>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark" data-toggle="modal" data-target="#drive">Voir le résumé</button>
+          </div>
+        </div>
+        <div class="modal" id="drive">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Mulholland Drive</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <img src="Images/Mulholland_Drive2.jpg" class="mx-auto d-block" alt="Mulholland Drive" style="width:50%;">
+                <p class="text-center">A Hollywood, durant la nuit, Rita devient amnésique suite à un accident de voiture sur 
+                  la route de Mulholland Drive. Elle fait la rencontre de Betty Elms. Aidée par celle-ci, 
+                  Rita tente de retrouver la mémoire ainsi que son identité.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!--Quatrième rangée des films-->
+    <div class="container" id="rangee4">
+      <h3 class="text-center">Samedi 8 août</h3>
+      <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 shadow p-3">
+          <div class="card-body">
+            <img src="Images/2001_L_Odyssee_de_l_espace.jpg" class="mx-auto d-block" alt="2001 l'odysée de l'espace" style="width:90%;">
+            <h2 class="card-title pricing-card-title"><small class="text-dark">2001:l'odysée de l'espace</small></h2>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>de 18h à 20h</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark" data-toggle="modal" data-target="#odysee">Voir le résumé</button>
+          </div>
+        </div>
+        <div class="modal" id="odysee">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">2001:l'odysée de l'espace</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <img src="Images/2001_L_Odyssee_de_l_espace.jpg" class="mx-auto d-block" alt="2001:l'odysée de l'espace" style="width:50%;">
+                <p class="text-center">En 2001, un vaisseau spatial évolue en orbite lunaire. A son bord, le Dr. Heywood Floyd 
+                  enquête sur un monolithe noir qui émet d'étranges signaux vers Jupiter. A quoi rime cette 
+                  mission et que risque-t-on de découvrir sur Jupiter ?</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow p-3">
+          <div class="card-body">
+            <img src="Images/Le_Cercle_des_poetes_disparus.jpg" class="mx-auto d-block" alt="Le cercle des poètes disparus" style="width:90%;">
+            <h2 class="card-title pricing-card-title"><small class="text-dark">Le Cercle des poètes disparus</small></h2>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>de 20h30 à 22h</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark" data-toggle="modal" data-target="#cercle">Voir le résumé</button>
+          </div>
+        </div>
+        <div class="modal" id="cercle">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Le Cercle des poètes disparus</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <img src="Images/Le_Cercle_des_poetes_disparus.jpg" class="mx-auto d-block" alt="Le cercle des poètes disparus" style="width:50%;">
+                <p class="text-center">Todd Anderson est envoyé dans la prestigieuse académie de Welton. C'est dans cette 
+                  université qu'il va faire la rencontre d'un professeur plutôt étrange, Mr Keating, qui 
+                  les encourage à toujours refuser l'ordre établi.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow p-3">
+          <div class="card-body">
+            <img src="Images/Hiroshima_mon_amour.jpg" class="mx-auto d-block" alt="Hiroshima mon amour" style="width:90%;">
+            <h2 class="card-title pricing-card-title"><small class="text-dark">Hiroshima mon amour</small></h2>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>de 22h15 à minuit</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark" data-toggle="modal" data-target="#hiroshima">Voir le résumé</button>
+          </div>
+        </div>
+        <div class="modal" id="hiroshima">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Hiroshima mon amour</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <img src="Images/Hiroshima_mon_amour.jpg" class="mx-auto d-block" alt="Hiroshima mon amour" style="width:50%;">
+                <p class="text-center">Une actrice se rend à Hiroshima pour tourner un film sur la paix. Elle y rencontre 
+                  un Japonais qui devient son amant, mais aussi son confident. Il lui parle de sa vie et 
+                  lui répète "Tu n’as rien vu à Hiroshima".</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!--Réservation-->
+  <section class="container" id="reservation">
+    <h2>Réservation</h2>
+    <p>Séléctionnez un ou plusieurs films et entrez vos coordonnées pour valider votre réservation</p>
+      <div class="form-group">
+        <label for="usr">Nom</label>
+        <input type="text" class="form-control" id="name" name="firstname">
+        <label for="usr">Prénom</label>
+        <input type="text" class="form-control" id="lastname" name="lastname">
+        <label for="usr">Adresse mail</label>
+        <input type="text" class="form-control" id="mail" name="mail">
+        <div class="form-check-inline">
+          <label class="form-check-label" for="check1">
+            <input type="checkbox" class="form-check-input" id="check1" name="vehicle1" value="something" checked>Mercredi 5 août
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label" for="check2">
+            <input type="checkbox" class="form-check-input" id="check2" name="vehicle2" value="something">Jeudi 6 août
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" id="check3" name="vehicle3" value="something">Vendredi 7 août
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" id="check3" name="vehicle3" value="something">Samedi 8 août
+          </label>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-dark" id="button">Valider</button>
+      </section>
+
+
+<!--Informations de localisation-->
+    <section class="container" id="informations">
+      <div class="card-deck mb-3">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-body">
+            <img src="Images/map2.JPG" class="mx-auto d-block" alt="Map" style="width:90%;">
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">Informations</h3>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title pricing-card-title">Adresse</h4>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Parc Monceau</li>
+              <li>35 Boulevard de Courcelles</li>
+              <li>75008 Paris</li>
+            </ul>
+            <h4 class="card-title pricing-card-title">Transports</h4>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Métro: Station Monceau</li>
+              <li>Lignes de bus: 30, 84, 94</li>
+              <li>Parking: Parking Haussmann</li>
+            </ul>
+            <h4 class="card-title pricing-card-title">Accessibilité</h4>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Accessible aux personnes à mobilité réduite</li>
+            </ul>
+          </div>
+        </div>
+    </section>
+
+<!--Newsletter-->
+      <section class="container" id="newsletter">
+        <h2>Newsletter</h2>
+        <p>Pour recevoir toutes les actualités du festival, n'hésitez pas à vous inscrire à notre newsletter !</p>
+          <div class="form-group">
+            <label for="mail">Adresse mail</label>
+            <input type="text" class="form-control" id="mail-news">
+          </div>
+        <button type="submit" class="btn btn-dark">Valider</button>
+      </section>
+
+
+<!--Footer-->
+  <footer class="pt-4 my-md-5 pt-md-5 border-top" id="footer">
+    <div class="container" id="footer">
+        <div class="row">
+            <div class="col-7 col-lg-3 pt-4">
+                <a href="index.html">
+                  <img id="footer-logo" src="Images/ticket.png" width="50%" alt="Logo">
+                  <small class="d-block mb-3 text-muted" id="copyright">&copy; 2020</small>
+                </a>
+            </div>
+            <nav class="col-5 col-lg-2 text-center mb-5" id="footer-menu">
+              <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#listefilms">Liste des films</a></li>
+                <li><a class="text-muted" href="#reservation">Réservation</a></li>
+                <li><a class="text-muted" href="#informations">Informations</a></li>
+                <li><a class="text-muted" href="contact.html">Contact</a></li>
+                <li><a class="text-muted" href="mentions.html">Mentions légales</a></li>
+              </ul>
+              <div class="icons">
+                <a href="#"><i class="text-muted fab fa-facebook-f" id="fb"></i></a>
+                <a href="#"><i class="text-muted fab fa-instagram" id="insta"></i></a>
+                <a href="#"><i class="text-muted fab fa-twitter" id="twitter"></i></a>
+              </div>
+            </nav>
+        </div>
+    </div>
+    <div class="oc">
+      <p class="text-center">Ce site est une maquette réalisée pour un projet OpenClassrooms. Il est donc purement fictif.</p>
+    </div>
+  </footer>
+  
+<!--Javascript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/8da837714f.js" crossorigin="anonymous"></script>
+  
+
+
+  </body>
+</html>
